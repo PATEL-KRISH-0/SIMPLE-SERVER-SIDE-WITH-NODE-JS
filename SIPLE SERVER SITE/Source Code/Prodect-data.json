@@ -1,0 +1,512 @@
+[
+    {
+        "Id": 1,
+        "Type": "T-shirt",
+        "src": "1.jpg",
+        "price": 959.81,
+        "specification": "Comfortable cotton blend fabric with trendy design.",
+        "description": "Experience ultimate comfort and style with our T-shirt collection. Crafted from a soft cotton blend fabric, these shirts offer a comfortable fit that keeps you at ease all day long.",
+        "ratings": 3.8,
+        "fetchers": {
+            "Brand": "ABC Clothing",
+            "colour": "Black",
+            "Special Feature": "Moisture-wicking",
+            "Style": "Casual",
+            "Theme": "Minimal",
+            "Specific Uses For Product": "Everyday wear"
+        }
+    },
+    {
+        "Id": 2,
+        "Type": "T-shirt",
+        "src": "2.jpg",
+        "price": 768.64,
+        "specification": "Premium quality T-shirt with modern pattern.",
+        "description": "Make a style statement with our premium T-shirt. It features a modern pattern and is made with high-quality materials for long-lasting comfort.",
+        "ratings": 1.3,
+        "fetchers": {
+            "Brand": "XYZ Fashion",
+            "colour": "Blue",
+            "Special Feature": "Breathable fabric",
+            "Style": "Contemporary",
+            "Theme": "Graphic",
+            "Specific Uses For Product": "Casual outings"
+        }
+    },
+    {
+        "Id": 3,
+        "Type": "T-shirt",
+        "src": "3.jpg",
+        "price": 578.74,
+        "specification": "Soft and breathable T-shirt for everyday wear.",
+        "description": "Stay cool and comfortable throughout the day with our soft and breathable T-shirt. It's perfect for casual and everyday wear.",
+        "ratings": 2.9,
+        "fetchers": {
+            "Brand": "Fashion Fusion",
+            "colour": "White",
+            "Special Feature": "Tagless design",
+            "Style": "Basic",
+            "Theme": "Essential",
+            "Specific Uses For Product": "Everyday casual"
+        }
+    },
+    {
+        "Id": 4,
+        "Type": "T-shirt",
+        "src": "4.jpg",
+        "price": 699.83,
+        "specification": "Stylish T-shirt with a perfect fit.",
+        "description": "Look effortlessly stylish with our T-shirt that offers a perfect fit. Made from high-quality materials, it ensures both comfort and style.",
+        "ratings": 4.2,
+        "fetchers": {
+            "Brand": "Modern Trends",
+            "colour": "Gray",
+            "Special Feature": "Stretchable fabric",
+            "Style": "Modern",
+            "Theme": "Versatile",
+            "Specific Uses For Product": "Casual and semi-formal"
+        }
+    },
+    {
+        "Id": 5,
+        "Type": "muck",
+        "src": "5.jpg",
+        "price": 503.05,
+        "specification": "Durable and waterproof muck boots for outdoor activities.",
+        "description": "Step into the great outdoors with confidence wearing our durable and waterproof muck boots. They are designed to withstand tough conditions and provide excellent traction.",
+        "ratings": 3.4,
+        "fetchers": {
+            "Brand": "Outdoor Gear",
+            "colour": "Black",
+            "Special Feature": "Slip-resistant outsole",
+            "Style": "Functional",
+            "Theme": "Adventure",
+            "Specific Uses For Product": "Hiking, camping"
+        }
+    },
+    {
+        "Id": 6,
+        "Type": "pants",
+        "src": "6.jpg",
+        "price": 546.62,
+        "specification": "Versatile and comfortable pants for any occasion.",
+        "description": "From formal events to casual outings, our versatile pants are designed to provide both style and comfort. They are made from premium fabrics and offer a flattering fit.",
+        "ratings": 4.8,
+        "fetchers": {
+            "Brand": "Elegant Attire",
+            "colour": "Navy",
+            "Special Feature": "Elastic waistband",
+            "Style": "Classic",
+            "Theme": "Timeless",
+            "Specific Uses For Product": "Office, parties"
+        }
+    },
+    {
+        "Id": 7,
+        "Type": "pants",
+        "src": "7.jpg",
+        "price": 969.49,
+        "specification": "Stylish and trendy pants for fashion-forward individuals.",
+        "description": "Stay ahead of the fashion curve with our stylish and trendy pants. They are designed to make a statement and provide utmost comfort.",
+        "ratings": 1.1,
+        "fetchers": {
+            "Brand": "Fashion Forward",
+            "colour": "Beige",
+            "Special Feature": "Wide-leg design",
+            "Style": "Fashionable",
+            "Theme": "Chic",
+            "Specific Uses For Product": "Special occasions"
+        }
+    },
+    {
+        "Id": 8,
+        "Type": "T-shirt",
+        "src": "8.jpg",
+        "price": 973.26,
+        "specification": "Premium T-shirt with a sporty look.",
+        "description": "Achieve a sporty and stylish look with our premium T-shirt. It's made with high-quality materials and features a modern design.",
+        "ratings": 3.6,
+        "fetchers": {
+            "Brand": "SportyFit",
+            "colour": "Red",
+            "Special Feature": "Quick-drying fabric",
+            "Style": "Athletic",
+            "Theme": "Sporty",
+            "Specific Uses For Product": "Sports, workouts"
+        }
+    },
+    {
+        "Id": 9,
+        "Type": "pants",
+        "src": "9.jpg",
+        "price": 543.33,
+        "specification": "Comfortable and durable pants for everyday wear.",
+        "description": "Experience all-day comfort with our durable and comfortable pants. They are designed to withstand daily wear and provide a flattering fit.",
+        "ratings": 3.7,
+        "fetchers": {
+            "Brand": "Everyday Essentials",
+            "colour": "Brown",
+            "Special Feature": "Wrinkle-resistant",
+            "Style": "Relaxed",
+            "Theme": "Casual",
+            "Specific Uses For Product": "Everyday casual"
+        }
+    },
+    {
+        "Id": 10,
+        "Type": "pants",
+        "src": "10.jpg",
+        "price": 937.93,
+        "specification": "Trendy pants with a modern twist.",
+        "description": "Stay on-trend with our pants that feature a modern twist. They are crafted with attention to detail and offer a perfect blend of style and comfort.",
+        "ratings": 1.6,
+        "fetchers": {
+            "Brand": "Trendsetters",
+            "colour": "Gray",
+            "Special Feature": "Contrast stitching",
+            "Style": "Trendy",
+            "Theme": "Urban",
+            "Specific Uses For Product": "Fashion-forward individuals"
+        }
+    },
+    {
+        "Id": 11,
+        "Type": "muck",
+        "src": "11.jpg",
+        "price": 777.0,
+        "specification": "Sturdy and reliable muck boots for outdoor enthusiasts.",
+        "description": "Gear up for your outdoor adventures with our sturdy and reliable muck boots. They provide excellent protection and are built to withstand rugged terrains.",
+        "ratings": 4.1,
+        "fetchers": {
+            "Brand": "Outdoor Explorers",
+            "colour": "Green",
+            "Special Feature": "Shock-absorbing sole",
+            "Style": "Outdoor",
+            "Theme": "Adventure",
+            "Specific Uses For Product": "Hiking, fishing"
+        }
+    },
+    {
+        "Id": 12,
+        "Type": "muck",
+        "src": "12.jpg",
+        "price": 772.84,
+        "specification": "High-performance muck boots for extreme conditions.",
+        "description": "Conquer extreme conditions with our high-performance muck boots. They offer superior protection, comfort, and traction for your outdoor endeavors.",
+        "ratings": 2.0,
+        "fetchers": {
+            "Brand": "Extreme Gear",
+            "colour": "Black",
+            "Special Feature": "Insulated lining",
+            "Style": "Rugged",
+            "Theme": "Extreme",
+            "Specific Uses For Product": "Hiking, mountaineering"
+        }
+    },
+    {
+        "Id": 13,
+        "Type": "pants",
+        "src": "13.jpg",
+        "price": 938.99,
+        "specification": "Versatile and fashionable pants for various occasions.",
+        "description": "Elevate your style with our versatile and fashionable pants. They are designed to be worn for various occasions and offer both comfort and style.",
+        "ratings": 4.1,
+        "fetchers": {
+            "Brand": "StyleMakers",
+            "colour": "Navy",
+            "Special Feature": "Slim fit",
+            "Style": "Fashion-forward",
+            "Theme": "Versatile",
+            "Specific Uses For Product": "Work, events"
+        }
+    },
+    {
+        "Id": 14,
+        "Type": "pants",
+        "src": "14.jpg",
+        "price": 507.19,
+        "specification": "Comfortable and stylish pants for a trendy look.",
+        "description": "Achieve a trendy and fashionable look with our comfortable and stylish pants. They are designed to provide both comfort and style for any occasion.",
+        "ratings": 4.3,
+        "fetchers": {
+            "Brand": "TrendyWear",
+            "colour": "Black",
+            "Special Feature": "High-rise waist",
+            "Style": "Chic",
+            "Theme": "Trendy",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 15,
+        "Type": "pants",
+        "src": "15.jpg",
+        "price": 733.99,
+        "specification": "Sophisticated pants for a polished and elegant look.",
+        "description": "Add a touch of sophistication to your wardrobe with our elegant pants. They are designed to provide a polished and refined look for any occasion.",
+        "ratings": 1.1,
+        "fetchers": {
+            "Brand": "Sophisticate",
+            "colour": "Gray",
+            "Special Feature": "Pleated front",
+            "Style": "Sophisticated",
+            "Theme": "Elegant",
+            "Specific Uses For Product": "Formal events, business meetings"
+        }
+    },
+    {
+        "Id": 16,
+        "Type": "muck",
+        "src": "16.jpg",
+        "price": 689.53,
+        "specification": "Premium muck boots for outdoor enthusiasts.",
+        "description": "Experience superior performance and protection with our premium muck boots. They are built to withstand the toughest outdoor conditions.",
+        "ratings": 4.6,
+        "fetchers": {
+            "Brand": "Outdoor Elite",
+            "colour": "Brown",
+            "Special Feature": "Anti-fatigue insole",
+            "Style": "Performance",
+            "Theme": "Outdoor",
+            "Specific Uses For Product": "Hiking, hunting"
+        }
+    },
+    {
+        "Id": 17,
+        "Type": "pants",
+        "src": "17.jpg",
+        "price": 734.57,
+        "specification": "Classic pants with a modern twist for versatile styling.",
+        "description": "Add a modern twist to your classic style with our versatile pants. They offer a comfortable fit and can be dressed up or down for any occasion.",
+        "ratings": 4.0,
+        "fetchers": {
+            "Brand": "Classic Revival",
+            "colour": "Black",
+            "Special Feature": "Slimming effect",
+            "Style": "Classic with a twist",
+            "Theme": "Versatile",
+            "Specific Uses For Product": "Business, casual"
+        }
+    },
+    {
+        "Id": 18,
+        "Type": "T-shirt",
+        "src": "18.jpg",
+        "price": 548.63,
+        "specification": "Premium T-shirt with a modern and trendy design.",
+        "description": "Stay on-trend with our premium T-shirt that features a modern and trendy design. It offers both style and comfort for your everyday look.",
+        "ratings": 4.4,
+        "fetchers": {
+            "Brand": "TrendyPlus",
+            "colour": "White",
+            "Special Feature": "Stretch fabric",
+            "Style": "Trendy",
+            "Theme": "Modern",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 19,
+        "Type": "pants",
+        "src": "19.jpg",
+        "price": 846.28,
+        "specification": "Elegant and comfortable pants for a sophisticated look.",
+        "description": "Achieve a sophisticated and elegant look with our comfortable and stylish pants. They are designed to provide both style and comfort for any occasion.",
+        "ratings": 3.9,
+        "fetchers": {
+            "Brand": "ElegantStyle",
+            "colour": "Black",
+            "Special Feature": "Wide-leg silhouette",
+            "Style": "Elegant",
+            "Theme": "Sophisticated",
+            "Specific Uses For Product": "Formal events, parties"
+        }
+    },
+    {
+        "Id": 20,
+        "Type": "pants",
+        "src": "20.jpg",
+        "price": 699.99,
+        "specification": "Trendy and fashionable pants for a stylish look.",
+        "description": "Stay ahead of the fashion curve with our trendy and fashionable pants. They are designed to make a statement and provide utmost style and comfort.",
+        "ratings": 2.5,
+        "fetchers": {
+            "Brand": "Fashionista",
+            "colour": "Beige",
+            "Special Feature": "Distressed detailing",
+            "Style": "Fashion-forward",
+            "Theme": "Trendy",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 21,
+        "Type": "T-shirt",
+        "src": "21.jpg",
+        "price": 559.53,
+        "specification": "Premium T-shirt with a stylish and modern look.",
+        "description": "Make a style statement with our premium T-shirt that features a stylish and modern look. It offers both comfort and style for your everyday wear.",
+        "ratings": 2.9,
+        "fetchers": {
+            "Brand": "ModernStyle",
+            "colour": "White",
+            "Special Feature": "Breathable fabric",
+            "Style": "Modern",
+            "Theme": "Stylish",
+            "Specific Uses For Product": "Casual outings"
+        }
+    },
+    {
+        "Id": 22,
+        "Type": "pants",
+        "src": "22.jpg",
+        "price": 505.77,
+        "specification": "Versatile and comfortable pants for everyday wear.",
+        "description": "Experience all-day comfort with our versatile and comfortable pants. They are designed to be worn for everyday activities and offer both style and comfort.",
+        "ratings": 4.1,
+        "fetchers": {
+            "Brand": "ComfortFit",
+            "colour": "Beige",
+            "Special Feature": "Elastic waistband",
+            "Style": "Casual",
+            "Theme": "Versatile",
+            "Specific Uses For Product": "Everyday casual"
+        }
+    },
+    {
+        "Id": 23,
+        "Type": "pants",
+        "src": "23.jpg",
+        "price": 718.17,
+        "specification": "Stylish pants for a fashionable and trendy look.",
+        "description": "Step up your style game with our stylish pants that offer a fashionable and trendy look. They are designed to make a statement and provide utmost style and comfort.",
+        "ratings": 2.1,
+        "fetchers": {
+            "Brand": "FashionFusion",
+            "colour": "Black",
+            "Special Feature": "Slim fit",
+            "Style": "Fashion-forward",
+            "Theme": "Trendy",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 24,
+        "Type": "muck",
+        "src": "24.jpg",
+        "price": 806.79,
+        "specification": "Durable and reliable muck boots for outdoor activities.",
+        "description": "Gear up for your outdoor activities with our durable and reliable muck boots. They provide excellent protection and are designed to withstand tough conditions.",
+        "ratings": 2.3,
+        "fetchers": {
+            "Brand": "AdventureGear",
+            "colour": "Brown",
+            "Special Feature": "Insulated lining",
+            "Style": "Outdoor",
+            "Theme": "Adventure",
+            "Specific Uses For Product": "Hiking, camping"
+        }
+    },
+    {
+        "Id": 25,
+        "Type": "muck",
+        "src": "25.jpg",
+        "price": 800.03,
+        "specification": "High-performance muck boots for outdoor enthusiasts.",
+        "description": "Conquer the great outdoors with our high-performance muck boots. They provide superior protection, comfort, and traction for your outdoor adventures.",
+        "ratings": 2.9,
+        "fetchers": {
+            "Brand": "OutdoorPro",
+            "colour": "Green",
+            "Special Feature": "Waterproof",
+            "Style": "Performance",
+            "Theme": "Outdoor",
+            "Specific Uses For Product": "Hiking, fishing"
+        }
+    },
+    {
+        "Id": 26,
+        "Type": "pants",
+        "src": "26.jpg",
+        "price": 512.27,
+        "specification": "Comfortable and stylish pants for a trendy look.",
+        "description": "Achieve a trendy and fashionable look with our comfortable and stylish pants. They are designed to provide both comfort and style for any occasion.",
+        "ratings": 3.4,
+        "fetchers": {
+            "Brand": "TrendyLooks",
+            "colour": "Navy",
+            "Special Feature": "Slim fit",
+            "Style": "Fashion-forward",
+            "Theme": "Trendy",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 27,
+        "Type": "muck",
+        "src": "27.jpg",
+        "price": 972.16,
+        "specification": "Premium muck boots for ultimate outdoor performance.",
+        "description": "Experience ultimate outdoor performance with our premium muck boots. They are designed to provide superior protection, comfort, and durability for your outdoor pursuits.",
+        "ratings": 2.5,
+        "fetchers": {
+            "Brand": "OutdoorElite",
+            "colour": "Black",
+            "Special Feature": "Anti-slip outsole",
+            "Style": "Performance",
+            "Theme": "Outdoor",
+            "Specific Uses For Product": "Hiking, hunting"
+        }
+    },
+    {
+        "Id": 28,
+        "Type": "T-shirt",
+        "src": "28.jpg",
+        "price": 964.46,
+        "specification": "Trendy T-shirt with a stylish and modern design.",
+        "description": "Stay on-trend with our trendy T-shirt that features a stylish and modern design. It offers both comfort and style for your everyday look.",
+        "ratings": 1.4,
+        "fetchers": {
+            "Brand": "FashionFocus",
+            "colour": "Gray",
+            "Special Feature": "Graphic print",
+            "Style": "Trendy",
+            "Theme": "Modern",
+            "Specific Uses For Product": "Casual outings"
+        }
+    },
+    {
+        "Id": 29,
+        "Type": "pants",
+        "src": "29.jpg",
+        "price": 801.51,
+        "specification": "Stylish and comfortable pants for a fashionable look.",
+        "description": "Step up your style game with our stylish and comfortable pants. They are designed to provide both style and comfort for a fashionable look.",
+        "ratings": 4.5,
+        "fetchers": {
+            "Brand": "FashionSense",
+            "colour": "Beige",
+            "Special Feature": "Wide-leg design",
+            "Style": "Fashion-forward",
+            "Theme": "Chic",
+            "Specific Uses For Product": "Fashion-conscious individuals"
+        }
+    },
+    {
+        "Id": 30,
+        "Type": "pants",
+        "src": "30.jpg",
+        "price": 711.97,
+        "specification": "Versatile pants for various styling options.",
+        "description": "Elevate your style with our versatile pants that offer various styling options. They are designed to provide both comfort and style for any occasion.",
+        "ratings": 3.8,
+        "fetchers": {
+            "Brand": "StyleMaster",
+            "colour": "Black",
+            "Special Feature": "Convertible hem",
+            "Style": "Versatile",
+            "Theme": "Modern",
+            "Specific Uses For Product": "Work, casual"
+        }
+    }
+]

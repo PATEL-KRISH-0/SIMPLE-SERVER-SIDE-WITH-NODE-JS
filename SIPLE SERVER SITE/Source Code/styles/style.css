@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-heding {
+    display: flex;
+    justify-content: center;
+}
+
+.main-Content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 21px;
+    align-items: center;
+}
+
+.btns {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.btns button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 17px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 117px;
+    padding: 6px 0px;
+    text-decoration: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+
+.btns button:active,
+.btns button:hover {
+    outline: 0;
+}
+
+.card-Contenar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product-card {
+    width: 477px;
+    display: flex;
+    border-radius: 19px;
+    flex-flow: column;
+    /* box-shadow: 0 2px 7px #dfdfdf; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background: #fafafa;
+    margin: 30px;
+    overflow: hidden;
+    zoom: 0.5;
+}
+
+.badge {
+    position: absolute;
+    border-radius: 19px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.product-c-s {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    font-size: 22px;
+    position: relative;
+    top: -6px;
+}
+
+.product-heding {
+    font-size: 28px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+
+.product-details p {
+    font-size: 21px;
+    line-height: 25px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    font-size: 32px;
+    float: left;
+}
+
+.product-price {
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    color: red;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+
+.star-rating {
+    font-size: 24px;
+    /* Adjust the font size to control the size of the stars */
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
+.star-rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.star-rating>span:before {
+    content: "\2605";
+    /* Unicode character ★ */
+}
+
+.star-rating>span.full-star:before {
+    content: "\2605";
+    /* Full star using Unicode character ★ */
+}
+
+.star-rating>span.partial-star-container {
+    overflow: hidden;
+    position: absolute;
+    direction: ltr;
+}
+
+.star-rating>span.partial-star {
+    position: relative;
+}
+
+.star-rating>span.partial-star:before {
+    content: "\2605";
+    /* Partial star using Unicode character ★ */
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+}
+
+/* Adjust the size of the partial star based on the width percentage */
+.star-rating>span.partial-star-container>span.partial-star {
+    width: 100%;
+}
